@@ -1,0 +1,19 @@
+{
+  "Файл": {"type": "node", "multiple": false},
+  "Файл.Документ": {"type": "node", "multiple": false},
+  "Файл.Документ.Доверенность": {"type": "node", "multiple": false},
+  "Файл.Документ.Доверенность.Номер": {"type": "attr", "multiple": false},
+  "Файл.Документ.Доверенность.ФИО": {"type": "node", "multiple": true},
+  "Файл.Документ.Доверенность.ФИО.Фамилия": {"type": "attr", "multiple": false},
+  "Файл.Документ.Доверенность.ФИО.Имя": {"type": "attr", "multiple": false},
+  "Файл.Документ.Доверенность.ФИО.Отчество": {"type": "attr", "multiple": false},
+  "Файл.Документ.Сотрудник": {"type": "node", "multiple": true},
+  "Файл.Документ.Сотрудник.ИНН": {"type": "attr", "multiple": false},
+  "Файл.Документ.Сотрудник.СНИЛС": {"type": "attr", "multiple": false},
+  "Файл.Документ.Сотрудник.ФИО": {"type": "node", "multiple": false},
+  "Файл.Документ.Сотрудник.ФИО.Фамилия": {"type": "attr", "multiple": false},
+  "Файл.Документ.Сотрудник.ФИО.Имя": {"type": "attr", "multiple": false},
+  "Файл.Документ.Сотрудник.ФИО.Отчество": {"type": "attr", "multiple": false},
+  "Файл.Документ.Сотрудник.Телефон": {"type": "node", "multiple": true},
+  "Файл.Документ.Сотрудник.Телефон.Номер": {"type": "attr", "multiple": false}
+}
