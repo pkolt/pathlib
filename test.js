@@ -76,9 +76,9 @@ describe('pathlib', function() {
 
    describe('#length', function() {
       it('simple', function() {
-         assert.equal(5, path('Файл.Документ.Сотрудник[0].Телефон[1].Номер'));
-         assert.equal(4, path('Файл.Документ.Сотрудник[0].Телефон[1]'));
-         assert.equal(2, path('Файл.Документ'));
+         assert.equal(5, path('Файл.Документ.Сотрудник[0].Телефон[1].Номер').length);
+         assert.equal(4, path('Файл.Документ.Сотрудник[0].Телефон[1]').length);
+         assert.equal(2, path('Файл.Документ').length);
       });
    });
 });
